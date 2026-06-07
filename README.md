@@ -98,4 +98,8 @@ python app/server.py
 - Introduce per-server structured logging and request IDs.
 - Add contract tests for tool payload schema stability.
 - Add optional containerization for single-command startup.
-# MCP
+
+## Notes
+
+- Keep each server independently deployable and versionable.
+- Prefer backward-compatible tool argument changes to avoid client breakage.
